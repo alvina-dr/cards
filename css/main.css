@@ -35,3 +35,10 @@ menu ul {
 menu ul li {
     margin: 5px;
 }
+
+.div-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 0px;
+    row-gap: 0px;
+}

@@ -8,6 +8,8 @@
     <title>Cards</title>
 
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/card.css">
+
 </head>
 
 <body>
@@ -18,7 +20,24 @@
                 <li>About us</li>
             </ul>
         </menu>
-    </header>
+    </header><br>
+
+
+    <div id="parent" class="div-grid">
+        <div id="card1" draggable="true" ondragstart="drag(event)"  ondrop="drop(event)" ondragover="allowDrop(event)" class="card"></div>
+        <div id="card2" draggable="true" ondragstart="drag(event)"  ondrop="drop(event)" ondragover="allowDrop(event)" class="card"></div>
+        <div id="card2" draggable="true" ondragstart="drag(event)"  ondrop="drop(event)" ondragover="allowDrop(event)" class="card"></div>
+        <div id="card2" draggable="true" ondragstart="drag(event)"  ondrop="drop(event)" ondragover="allowDrop(event)" class="card"></div>
+        <div id="card3" draggable="true" ondragstart="drag(event)"  ondrop="drop(event)" ondragover="allowDrop(event)" class="card"></div>
+        <div id="card3" draggable="true" ondragstart="drag(event)"  ondrop="drop(event)" ondragover="allowDrop(event)" class="card"></div>
+        <div id="card4" draggable="true" ondragstart="drag(event)"  ondrop="drop(event)" ondragover="allowDrop(event)" class="card"></div>
+        <div id="card2" draggable="true" ondragstart="drag(event)"  ondrop="drop(event)" ondragover="allowDrop(event)" class="card"></div>
+        <div id="card4" draggable="true" ondragstart="drag(event)"  ondrop="drop(event)" ondragover="allowDrop(event)" class="card"></div>
+
+
+    </div>
+
+    <script src="js/drag.js"></script>
 
 </body>
 

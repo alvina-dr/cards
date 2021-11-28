@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    position: relative;
+    width: 308px;
+    height: 442px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+
+.card-background {
+    border-radius: 10px;
+}
+
+.card-number {
+    color: var(--light-color);
+    display: flex;
+    right: 0;
+    margin: 10px;
+    font-weight: bold;
+
+}
+
+.card-qrcode {
+    position: absolute;
+    align-self: flex-end;
+    margin-left: 15px;
+}
+
+
+/*LISTE DES BACKGROUNDS DE CARTES*/
+#card1 {
+    background-image: url(../img/card1.jpg);
+}
+
+#card2 {
+    background-image: url(../img/card2.jpg);
+}
+
+#card3 {
+    background-image: url(../img/card3.jpg);
+}
+
+#card4 {
+    background-image: url(../img/card4.jpg);
+}
