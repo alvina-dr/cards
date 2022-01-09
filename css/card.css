@@ -5,7 +5,7 @@
     height: 442px;
     border-radius: 10px;
     width: 100%;
-
+    height: fit-content;
 }
 
 
@@ -28,9 +28,16 @@
     margin-left: 15px;
 }
 
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
 
 /*LISTE DES BACKGROUNDS DE CARTES*/
-#card1 {
+/*#card1 {
     background-image: url(../img/card1.jpg);
 }
 
@@ -44,4 +51,4 @@
 
 #card4 {
     background-image: url(../img/card4.jpg);
-}
+}*/
