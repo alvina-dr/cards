@@ -4,7 +4,7 @@
 /*COLOR VARIABLES*/
 
 body {
-    --dark-color: #021016;
+    --dark-color: #2c2f30;
     --light-color: #f0f0f0;
     margin: 0;
 }
@@ -23,6 +23,7 @@ menu {
     background-color: var(--dark-color);
     color: var(--light-color);
     margin: 0;
+    height: 60px;
 }
 
 menu ul {
@@ -30,6 +31,9 @@ menu ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    align-items: center;
+    height: 100%;
+    
 }
 
 menu ul li {
@@ -43,4 +47,13 @@ menu ul li {
     row-gap: 0px;
     width: 90%;
     margin: auto;
+}
+
+h1 {text-align: center;}
+
+h2 {text-align: center;}
+
+a{
+    color: #f0f0f0;
+    text-decoration: none;
 }
